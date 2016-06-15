@@ -1,0 +1,65 @@
+# About this book
+
+## What makes this book different
+
+Github, Slack, Real World Application
+
+# Introducing the Tracked Consent Application
+Tell all about the application
+
+# Defining the Use Cases
+	^^^ Do this in Gherkin so that they are executable when we start to implement the API and UI
+
+# Diagramming a Solution (Iteration 1)
+## Logical View
+## Development View
+## Process View
+## Physical View
+
+??? Where do the following go ???
+## Api
+## Web UI
+## Mobile UI
+
+# Designing the API (Iteration 1)
+## Authentication
+## Authorization
+## IP Range Restrictions (with Logging/Alerting to Librato if rate gets too high)
+## Rate Limiting
+## Paging Data Queries
+## Shaping Data (Mobile vs Web UI)
+	^^^ Include the separation of the domain view from the api view via automapper or other means
+## Metrics (Count and Call Timing)
+## Metric Alerts (Count and Call Timing)
+	^^^ Segway into setting up a Slack channel to receive alerts via Librato
+## Error Handling
+## Exception Management (Exceptionless)
+## Exception Alerts
+	^^ Also integrate via Slack
+## Logging (Exceptionless)
+## Identifying Bounded Contexts
+### Api Gateway (From microservices book)
+### Security Service (Authentication/Authorization/Ip Restrictions/etc)
+
+
+# Implementing the API (Iteration 1)
+## Setting up our Workstation
+### Visual Studio
+### ReSharper
+### xUnit
+### SpecFlow
+### Docker for Windows
+### NDepend
+
+## Setting up Source Control (Github)
+	^^ Integrate this with Slack
+## Documentation via Swashbuckle
+## Automated Testing via SpecFlow/Selenium driving Swaggar UI
+	^^ Same thing can be done for the Web UI
+
+Use the above (driving browser via selenium to swaggar ui or web ui via some configuration flag where the same Gherkin spec can drive both the api and web ui)
+
+# Building a Financial Model
+## Github Account
+## Librato Account
+## Azure Subscription
