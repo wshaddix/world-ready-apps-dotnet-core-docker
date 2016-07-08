@@ -1,1 +1,1 @@
-"# world-ready-apps-dotnet-core-docker" 
+# World Ready Applications using .Net Core and Docker
