@@ -1,7 +1,0 @@
-About.txt
-Introduction.txt
-Defining Use Cases.txt
-Diagramming a Solution.txt
-Designing the API (Iteration 1).txt
-Implementing the API (Iteration 1).txt
-Building a Financial Model.txt
