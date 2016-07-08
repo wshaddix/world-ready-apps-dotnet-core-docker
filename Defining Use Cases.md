@@ -1,2 +1,7 @@
 # Defining the Use Cases
-	^^^ Do this in Gherkin so that they are executable when we start to implement the API and UI
+The first thing we need to do is to start describing the application that we want to build. This could just be a big long text with everything that we can think of and sometimes that is a helpful first step, but we're going to put a little bit of structure into our use cases so that it will aid us in designing and developing the software later on. The reason why we want a certain structure to the use cases is so that we can run tests against them to verify if our application satisfies the use cases. To do that, we'll use Gherkin syntax to describe the system that we want to build. By using Gherkin we gain a couple of advantages. They can be read by non-developers because it's just plain language and not source code. Also there are testing tools that know how to read Gherkin syntax and turn it into executable code that can be used to test our application.
+
+If we were to define every use case right now we would quickly get bored and lose momentum so instead we are going to define the most obvious use case that we can deliver and we'll grow the system using an iterative planning, development, testing, deployment process.
+
+## Use Case 1: Create a Customer
+The most straightforward thing we can do is to create a new Customer
