@@ -3,5 +3,12 @@ The first thing we need to do is to start describing the application that we wan
 
 If we were to define every use case right now we would quickly get bored and lose momentum so instead we are going to define the most obvious use case that we can deliver and we'll grow the system using an iterative planning, development, testing, deployment process.
 
+## Use Case Structure
+TODO: Reference Gherkin Specification Book
+
+At the most basic level, the Gherkin syntax is written in a "Given-When-Then" template. The Given part defines the context of the use case. The When part of the template describes one or more events that occur within the system. The Then part ensures or validates that the expected outcome(s) take place. It is important to keep the use cases written in the vocabulary of the bussines and not the developers. They should be easy to read and understand by non-developers.
+
 ## Use Case 1: Create a Tenant
-The most straightforward thing we can do is to create a new Tenant because it is the root object in what will become our data model. The Tenant is the container that will hold it's Customers and their consent details so we will create it first.
+The most straightforward thing we can do is to create a new Tenant because it is the container that holds it's Customers so it is a natural starting point.
+
+
