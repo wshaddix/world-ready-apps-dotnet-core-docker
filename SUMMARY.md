@@ -7,5 +7,5 @@
 * [Designing the API (Iteration 1).md](Designing the API (Iteration 1).md)
 * [Implementing the API (Iteration 1).md](Implementing the API (Iteration 1).md)
 * [Building a Financial Model.md](Building a Financial Model.md)
-* [Defining Use Cases.md](Defining Use Cases.md)
+
 
